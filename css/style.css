@@ -1,0 +1,52 @@
+.heading{
+    color: #707070;
+    text-align: center;
+    font-family: 'Lora', serif;
+    padding: 2em;
+
+}
+h1{
+    font-size: 2rem;
+    font-weight: 400;
+    color: #143774;
+    margin-bottom: 0;
+}
+
+.sub-title, a{
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+}
+.sub-title{
+    color: #1792d2;
+    margin-top: 0;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+}
+
+nav  li{
+    margin: 0 0.5em;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 1rem;
+    letter-spacing: 0.15rem;
+    color: #707070;
+    font-weight: 700;
+
+}
+
+nav a:hover,
+nav a:focus{
+    color: #1792d2;
+    border-bottom: 1px solid #707070;
+
+}
